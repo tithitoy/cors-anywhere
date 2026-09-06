@@ -12,8 +12,8 @@ RUN npm install --production
 COPY . .
 
 # Set environment variables (SnapDeploy will expose the port)
-ENV PORT=8080
-EXPOSE 8080
+ENV PORT=3000
+EXPOSE 3000
 
 # Command to start the proxy server
 CMD [ "node", "server.js" ]
